@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: MEDIA-SERVICE
+
+
+eureka:
+  instance:
+    hostname: copic-account-service.herokuapp.com
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI}
