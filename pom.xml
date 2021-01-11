@@ -67,6 +67,31 @@
         </dependency>
 
 
+
+<!--        HEROKU-->
+            <!-- The Hibernate dialect for Spanner dependency -->
+            <dependency>
+                <groupId>com.google.cloud</groupId>
+                <artifactId>google-cloud-spanner-hibernate-dialect</artifactId>
+                <version>1.4.0</version>
+            </dependency>
+
+            <!-- The Spanner JDBC driver dependency -->
+            <dependency>
+                <groupId>com.google.cloud</groupId>
+                <artifactId>google-cloud-spanner-jdbc</artifactId>
+                <version>1.18.3</version>
+            </dependency>
+
+            <!-- Hibernate core dependency -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <version>5.4.27.Final</version>
+            </dependency>
+
+
+
     </dependencies>
 
     <dependencyManagement>
