@@ -11,7 +11,7 @@ public class FireController {
 
     @Autowired
     private FirebaseService firebaseService;
-    @CrossOrigin("*")
+
     @PostMapping("/delete")
     public String delete(@RequestHeader String id){
         return firebaseService.deleteImg(id);

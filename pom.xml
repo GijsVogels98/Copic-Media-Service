@@ -68,41 +68,41 @@
 
 
 
-<!--        HEROKU-->
-            <!-- The Hibernate dialect for Spanner dependency -->
-            <dependency>
-                <groupId>com.google.cloud</groupId>
-                <artifactId>google-cloud-spanner-hibernate-dialect</artifactId>
-                <version>1.4.0</version>
-            </dependency>
+        <!--        HEROKU-->
+        <!-- The Hibernate dialect for Spanner dependency -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-spanner-hibernate-dialect</artifactId>
+            <version>1.4.0</version>
+        </dependency>
 
-            <!-- The Spanner JDBC driver dependency -->
-            <dependency>
-                <groupId>com.google.cloud</groupId>
-                <artifactId>google-cloud-spanner-jdbc</artifactId>
-                <version>1.18.3</version>
-            </dependency>
+        <!-- The Spanner JDBC driver dependency -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-spanner-jdbc</artifactId>
+            <version>1.18.3</version>
+        </dependency>
 
-            <!-- Hibernate core dependency -->
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-core</artifactId>
-                <version>5.4.27.Final</version>
-            </dependency>
+        <!-- Hibernate core dependency -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.27.Final</version>
+        </dependency>
 
-            <!-- Switch back from Spring Boot 2.x standard HikariCP to Tomcat JDBC,
-          configured later in Heroku (see https://stackoverflow.com/a/49970142/4964553) -->
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-jdbc</artifactId>
-            </dependency>
+        <!-- Switch back from Spring Boot 2.x standard HikariCP to Tomcat JDBC,
+      configured later in Heroku (see https://stackoverflow.com/a/49970142/4964553) -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+        </dependency>
 
-            <!-- PostgreSQL used in Staging and Production environment, e.g. on Heroku -->
-            <dependency>
-                <groupId>org.postgresql</groupId>
-                <artifactId>postgresql</artifactId>
-                <version>42.2.2</version>
-            </dependency>
+        <!-- PostgreSQL used in Staging and Production environment, e.g. on Heroku -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.2</version>
+        </dependency>
 
 
 
